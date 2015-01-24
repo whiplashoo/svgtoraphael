@@ -29,14 +29,14 @@ If you want to **convert a large SVG file to a Raphael object**, follow these st
 
 2. Once your SVG is ready, open it in a text editor and **save it as XML file (.xml)**.
 
-3. In the SVGtoRaphael.py script, **change the argument to tree = ET.parse()** to whichever file you want to convert. By default, it is 'world.xml', which is uploaded here for example purposes. 
+3. In the SVGtoRaphael.py script, **change the argument to `tree = ET.parse()`** to whichever file you want to convert. By default, it is 'world.xml', which is uploaded here for example purposes. 
 
 4. After running the script, a text file 'final.txt' is created. You can paste its content between this snippet in a .js file:
-
+	```
 	$( document ).ready(function() {
 		var rsr = Raphael('rsr', '2600', '1300'); var layer1 = rsr.set();
 		// 'final'.txt output goes here
 	});
-
+	```
 	All this snippet does is load all the paths that consist the SVG to the <div id="rsr"> that exists in the HTML page, and create a Raphael object out of it, enabling you to use all of Raphael.js functions and features.
 
