@@ -38,5 +38,5 @@ If you want to **convert a large SVG file to a Raphael object**, follow these st
 		// 'final'.txt output goes here
 	});
 	```
-	All this snippet does is load all the paths that consist the SVG to the '''<div id="rsr">''' that exists in the HTML page, and create a Raphael object out of it, enabling you to use all of Raphael.js functions and features.
+	All this snippet does is load all the paths that consist the SVG to the ```<div id="rsr">``` that exists in the HTML page, and create a Raphael object out of it, enabling you to use all of Raphael.js functions and features.
 
