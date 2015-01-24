@@ -1,5 +1,5 @@
 # svgtoraphael
-Parses an XML file, originated from SVG, and outputs a Raphael object. Used for creating the maps on http://mapchart.net .
+Parses an XML file, originated from SVG, and outputs a Raphael object. Used for creating the maps on http://mapchart.net . 
 
 ## Example
 Open world.html file in a browser. You can see that it contains a SVG world map. 
@@ -38,5 +38,5 @@ If you want to **convert a large SVG file to a Raphael object**, follow these st
 		// 'final'.txt output goes here
 	});
 	```
-	All this snippet does is load all the paths that consist the SVG to the ```<div id="rsr">``` that exists in the HTML page, and create a Raphael object out of it, enabling you to use all of Raphael.js functions and features.
+	All this snippet does is load all the paths that consist the SVG to the ```<div id="rsr">``` that exists in the HTML page, and create a Raphael object out of it, enabling you to use all of Raphael.js functions and features. jQuery and raphael.js are required for the snippet to work.
 
